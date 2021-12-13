@@ -37,7 +37,7 @@ guiTypes = {
 			delayedTooltipText = ""
 			buttonFont = "vic_18"
 			clicksound = close_window
-			shortcut = "ESCAPE"
+
 			frame = 1
 		}
 
@@ -50,7 +50,7 @@ guiTypes = {
 			delayedTooltipText = ""
 			buttonFont = "vic_18"
 			clicksound = close_window
-			shortcut = "ESCAPE"
+
 			frame = 1
 		}
 
@@ -60,7 +60,7 @@ guiTypes = {
 			spriteType = "GFX_province_view_religion"
 			position = { x= 42 y = 115 }
 			hint_tag = "hint_religion"
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 
 		iconType =
@@ -77,18 +77,18 @@ guiTypes = {
 			spriteType = "GFX_province_view_religion"
 			position = { x= 825 y = 115 }
 			hint_tag = "hint_religion"
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 
 		
 		instantTextBoxType = {
 			name = "dominantfaith_label"
-			position = { x = 636 y = 113 }
+			position = { x = 644 y = 113 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 0}
 			text = "HRE_DOMINANTFAITH"
-			maxWidth = 130
+			maxWidth = 122
 			maxHeight = 32
 			format = left
 		}
@@ -114,7 +114,7 @@ guiTypes = {
 		
 
 		iconType =
-		8
+		{
 			name ="hre_war_peace_icon"
 			spriteType = "GFX_hre_war_peace_strip"
 			position = { x= 592 y = 110 }
@@ -129,7 +129,7 @@ guiTypes = {
 			spriteType = "GFX_province_view_religion"
 			position = { x= 597 y = 114 }
 			hint_tag = "hint_religion"
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 
 		instantTextBoxType = {
@@ -152,6 +152,17 @@ guiTypes = {
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
 			text = "HRE_IMPERIALDIET"
+			maxWidth = 120
+			maxHeight = 32
+		}
+
+		instantTextBoxType = {
+			name = "permanent_diet_location"
+			position = { x = 654 y = 386 }
+			format = centre
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 4 y = 4}
 			maxWidth = 120
 			maxHeight = 32
 		}
@@ -271,7 +282,7 @@ guiTypes = {
 		guiButtonType =
 		{
 			name ="emperor_shield"
-			quadTextureSprite = "GFX_shield_thin_old"
+			quadTextureSprite = "GFX_shield_thin"
 			position = { x= 172 y = 130 }
 			tooltip = ""
 			tooltipText =""
@@ -437,7 +448,7 @@ guiTypes = {
 
 		gridBoxType = {
 			name = "hre_electors"
-			position = { x = 128 y = 285 }
+			position = { x = 128 y = 293 }
 			size = { width = 200 height = 600 }
 			slotsize = { width = 88 height = 96 }
 			max_slots_horizontal = 2
@@ -483,12 +494,12 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "vote_button"
-			position = { x= 160 y = 202 }
-			quadTextureSprite ="GFX_more_dip_actions_icon"
+			position = { x= 150 y = 266 }
+			quadTextureSprite ="button_type_1"
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
-			buttonText = ""
+			buttonText = "HRE_VOTE"
 			buttonFont = "vic_18"
 		}
 		
@@ -556,7 +567,7 @@ guiTypes = {
 		guiButtonType = {
 			name ="elector_shield"
 			quadTextureSprite = "GFX_shield_thin"
-			position = { x= 8 y = 0 }
+			position = { x= 0 y = 0 }
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
@@ -591,7 +602,7 @@ guiTypes = {
 	windowType = {
 		name = "hre_empty_elector"
 		backGround = ""
-		position = { x=8 y=0 }
+		position = { x=0 y=0 }
 		size = { x=96 y=96 }
 
 		guiButtonType = {
@@ -634,7 +645,7 @@ guiTypes = {
 			spriteType = "GFX_imperial_reform_selected_frame"
 			position = { x=0 y=8 }
 			Orientation = "UPPER_LEFT"
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
         guiButtonType = {
 			name = "reform_checkbox"
@@ -688,7 +699,7 @@ guiTypes = {
 			spriteType = "GFX_imperial_reform_selected_frame"
 			position = { x=0 y=8 }
 			Orientation = "UPPER_LEFT"
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
         guiButtonType = {
 			name = "reform_checkbox"

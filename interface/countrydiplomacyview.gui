@@ -104,7 +104,7 @@ guiTypes = {
 		{
 			name ="religion_icon"
 			spriteType = "GFX_country_icon_religion"
-			position = { x= 80 y = 125 }
+			position = { x= 74 y = 125 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.7
 			hint_tag = "hint_religion"
@@ -114,7 +114,7 @@ guiTypes = {
 		{
 			name ="secondary_religion_icon"
 			spriteType = "GFX_icon_religion_small"
-			position = { x= 116 y = 142 }
+			position = { x= 110 y = 142 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.8
 			hint_tag = "hint_religion"
@@ -123,7 +123,7 @@ guiTypes = {
 		{
 			name ="religious_school_icon"
 			spriteType = "GFX_icon_religion_small"
-			position = { x= 116 y = 142 }
+			position = { x= 110 y = 142 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.5
 			hint_tag = "hint_religion"
@@ -132,7 +132,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "label_nation"
-			position = { x = 138 y = 123 }
+			position = { x = 132 y = 123 }
 			textureFile = ""
 			font = "vic_22"
 			borderSize = {x = 4 y = 4}
@@ -155,7 +155,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "label_fog"
-			position = { x = 138 y = 145 }
+			position = { x = 132 y = 145 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
@@ -317,12 +317,12 @@ guiTypes = {
 		{
 			name ="personality_icons_strip"
 			spriteType = "GFX_personality_icons_strip"
-			position = { x = 83  y = 173 }
+			position = { x = 77  y = 173 }
 		}
 
 		instantTextBoxType = {
 			name = "label_ruler"
-			position = { x =101  y = 173 }
+			position = { x =95  y = 173 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
@@ -339,7 +339,7 @@ guiTypes = {
 		{
 			name ="monarch_gender"
 			spriteType = "GFX_gender_icon"
-			position = { x=83 y = 199 }
+			position = { x=58 y = 199 }
 			Orientation = "UPPER_LEFT"
 		}
 
@@ -347,14 +347,14 @@ guiTypes = {
 		{
 			name ="ruler_adm_icon"
 			spriteType = "GFX_icon_powers_administrative"
-			position = { x= 100 y = 192 }
+			position = { x= 75 y = 192 }
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_ruler"
 		}
 
 		instantTextBoxType = {
 			name = "ruler_adm_value"
-			position = { x = 115 y = 197 }
+			position = { x = 90 y = 197 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
@@ -368,14 +368,14 @@ guiTypes = {
 		{
 			name ="ruler_dip_icon"
 			spriteType = "GFX_icon_powers_diplomatic"
-			position = { x= 150 y = 192 }
+			position = { x= 125 y = 192 }
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_ruler"
 		}
 
 		instantTextBoxType = {
 			name = "ruler_dip_value"
-			position = { x = 165 y = 197 }
+			position = { x = 140 y = 197 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
@@ -389,14 +389,14 @@ guiTypes = {
 		{
 			name ="ruler_mil_icon"
 			spriteType = "GFX_icon_powers_military"
-			position = { x= 200 y = 192 }
+			position = { x= 175 y = 192 }
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_ruler"
 		}
 
 		instantTextBoxType = {
 			name = "ruler_mil_value"
-			position = { x = 215 y = 197 }
+			position = { x = 190 y = 197 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
@@ -630,12 +630,12 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "prestige_value"
-			position = { x = 444 y = 160 }
+			position = { x = 439 y = 160 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
 			text = "?"
-			maxWidth = 30
+			maxWidth = 35
 			maxHeight = 26
 			format = right
 			fixedsize = yes
@@ -2279,7 +2279,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 				name = "Description"
-				position = { x = 45 y = 220 }
+				position = { x = 45 y = 205 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -2776,8 +2776,9 @@ guiTypes = {
 				borderSize = {x = 0 y = 0}
 				text = ""
 				maxWidth = 475
-				maxHeight = 180
+				maxHeight = 250
 				format = left
+				scrollbartype = "standardtext_slider"
 			}
 
 		shieldtype =

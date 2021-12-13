@@ -13,7 +13,7 @@ spriteTypes = {
 	maskedShieldType = {
 		name = "GFX_federation_leader_frame"
 		textureFile1 = "gfx/interface/federation_leader_frame.dds"
-		textureFile2 = "gfx/interface/shield_mask_old.tga"
+		textureFile2 = "gfx/interface/shield_mask.tga"
 		effectFile = "gfx/FX/maskedflag.lua"
 		textureFile3 = "gfx//interface//tutorial//tut_arrows_strip.dds"
 		noOfFrames = 8
@@ -51,7 +51,6 @@ spriteTypes = {
 		size = { x = 86 y = 28 }
 		effectFile = "gfx/FX/progress.lua"
 	}	
-}
 
     
 	### Natives Federation Advancements ###

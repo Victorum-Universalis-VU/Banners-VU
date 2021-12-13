@@ -69,19 +69,11 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 
 		}
-		
+
 		iconType = {
-			name = "player_shield_banner"
-			quadTextureSprite ="GFX_player_shield_bg"
-			position = { x= 0 y = 0 }
-			Orientation = "UPPER_LEFT"
-			alwaystransparent = yes
-		}
-		
-		iconType = {
-			name = "player_shield_glow"
-			quadTextureSprite ="GFX_shield_fancy_great_power_glow"
-			position = { x= 0 y = 0 }
+			name = "government_reforms_button_base"
+			quadTextureSprite ="GFX_government_reforms_button_base"
+			position = { x= 93 y = 104 }
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}
@@ -96,18 +88,18 @@ guiTypes = {
 			delayedTooltipText = ""
 			shortcut = "F1"
 		}
-		
+
 		iconType = {
-			name = "buildmenu_button_top"
-			quadTextureSprite ="GFX_buildmenu_button"
-			position = { x = 0 y = 100 }
+			name = "player_shield_glow"
+			quadTextureSprite ="GFX_shield_fancy_great_power_glow"
+			position = { x= -5 y = 2 }
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}
-		
+
 		guiButtonType = {
 			name = "open_build_interface_button"
-			position = { x = 6 y = 112 }
+			position = { x = 6 y = 109 }
 			quadTextureSprite ="GFX_open_build_interface"
 			tooltip = ""
 			tooltipText =""
@@ -132,25 +124,19 @@ guiTypes = {
 			quadTextureSprite ="GFX_great_power_button"
 			buttonFont = "Main_14_black"
 			clicksound = macro_build
+			shortcut = "Shift+G"
 		}
 
 		iconType = {
-			name = "government_reforms_button_base"
-			quadTextureSprite ="GFX_government_reforms_button_base"
-			position = { x = 91 y = 105 }
-			Orientation = "UPPER_LEFT"
-			alwaystransparent = yes
-		}
-		iconType = {
 			name = "government_reforms_progress"
-			position = { x = 98 y = 111 }
+			position = { x = 100 y = 110 }
 			quadTextureSprite ="GFX_government_reforms_progress"
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}
 		guiButtonType = {
 			name = "government_reforms_button"
-			position = { x = 98 y = 112 }
+			position = { x = 100 y = 110 }
 			quadTextureSprite ="GFX_government_reforms_button"
 			buttonFont = "Main_14_black"
 			clicksound = macro_build
@@ -660,6 +646,7 @@ guiTypes = {
 			position = { x = 722 y = 32 }
 			quadTextureSprite ="GFX_age_button"
 			clicksound = macro_build
+			shortcut = "Shift+A"
 		}
 
 		guiButtonType = {
