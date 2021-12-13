@@ -42,7 +42,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_checkbox_settlement_growth"
 		texturefile = "gfx//interface//checkbox_settlement_growth.dds"
-		noOfFrames = 2
+		noOfFrames = 4
 	}		
 	
 	
@@ -1421,17 +1421,6 @@ spriteTypes = {
 	}
 
 	maskedShieldType = {
-		name = "GFX_shield_medium_old"
-		textureFile1 = "gfx/interface/shield_old_medium_overlay.dds"
-		textureFile2 = "gfx/interface/shield_old_medium_mask.tga"
-		effectFile = "gfx/FX/maskedflag.lua"
-		textureFile3 = "gfx//interface//client_state_symbols_small.dds"
-		noOfFrames = 121
-		overlay_frames_per_row = 32
-		overlay_rows = 4
-	}
-	
-	maskedShieldType = {
 		name = "GFX_shield_medium"
 		textureFile1 = "gfx/interface/shield_medium_overlay.dds"
 		textureFile2 = "gfx/interface/shield_medium_mask.tga"
@@ -1446,17 +1435,6 @@ spriteTypes = {
 		name = "GFX_shield_thin"
 		textureFile1 = "gfx/interface/shield_frame.dds"
 		textureFile2 = "gfx/interface/shield_mask.tga"
-		effectFile = "gfx/FX/maskedflag.lua"
-		textureFile3 = "gfx//interface//client_state_symbols_medium.dds"
-		noOfFrames = 121
-		overlay_frames_per_row = 32
-		overlay_rows = 4
-	}
-	
-	maskedShieldType = {
-		name = "GFX_shield_thin_old"
-		textureFile1 = "gfx/interface/shield_frame_old.dds"
-		textureFile2 = "gfx/interface/shield_mask_old.tga"
 		effectFile = "gfx/FX/maskedflag.lua"
 		textureFile3 = "gfx//interface//client_state_symbols_medium.dds"
 		noOfFrames = 121

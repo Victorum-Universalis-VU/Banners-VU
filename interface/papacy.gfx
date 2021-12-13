@@ -81,8 +81,8 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_more_dip_actions_icon"
-		texturefile = "gfx//interface//more_dip_actions_icon.dds"
+		name = "GFX_more_dip_actions_icon_papacy"
+		texturefile = "gfx//interface//more_dip_actions_icon_papacy.dds"
 		loadType = "INGAME"
 	}
 
@@ -208,7 +208,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_great_power_tech_cost_sort"
-		texturefile = "gfx//interface//great_power_tech_cost_sort.dds"
+		texturefile = "gfx//interface//great_power_institutions_sort.dds"
 	}
 
 	spriteType = {
@@ -272,7 +272,7 @@ spriteTypes = {
 	maskedShieldType = {
 		name = "GFX_crusade_target_shield"
 		textureFile1 = "gfx/interface/crusade_target_shield.dds"
-		textureFile2 = "gfx/interface/shield_old_medium_mask.tga"
+		textureFile2 = "gfx/interface/shield_medium_mask.tga"
 		effectFile = "gfx/FX/maskedflag.lua"
 		textureFile3 = "gfx//interface//client_state_symbols_medium.dds"
 		noOfFrames = 119

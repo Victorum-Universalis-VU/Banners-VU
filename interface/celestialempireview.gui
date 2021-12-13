@@ -88,7 +88,7 @@ guiTypes = {
 		{
 			name ="emperor_shield"
 			quadTextureSprite = "GFX_shield_thin"
-			position = { x= 215 y = 155 }
+			position = { x= 228 y = 150 }
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""

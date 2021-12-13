@@ -207,7 +207,7 @@ guiTypes = {
 				borderSize = {x = 4 y = 2}
 				maxWidth =45
 				maxHeight = 100	
-				format = left
+				format = center
 			}		
 		
 
@@ -227,8 +227,8 @@ guiTypes = {
 		
 		guiButtonType = {
 			name ="shield"
-			quadTextureSprite ="GFX_shield_thin_old"
-			position = { x= 81 y = 6 }
+			quadTextureSprite ="GFX_shield_thin"
+			position = { x= 82 y = 8 }
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
