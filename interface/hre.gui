@@ -1,5 +1,7 @@
 guiTypes = {
 
+	#Banners VU
+
 	windowType = {
 		name = "hre_window"
 		position = { x=-315 y=-370}
@@ -37,7 +39,6 @@ guiTypes = {
 			delayedTooltipText = ""
 			buttonFont = "vic_18"
 			clicksound = close_window
-
 			frame = 1
 		}
 
@@ -50,7 +51,6 @@ guiTypes = {
 			delayedTooltipText = ""
 			buttonFont = "vic_18"
 			clicksound = close_window
-
 			frame = 1
 		}
 

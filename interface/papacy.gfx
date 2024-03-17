@@ -1,5 +1,7 @@
 spriteTypes = {
 
+	#Banners VU
+
 	spriteType = {
 		name = "GFX_papacy_action_strip"
 		texturefile = "gfx//interface//papacy_action_strip.dds"

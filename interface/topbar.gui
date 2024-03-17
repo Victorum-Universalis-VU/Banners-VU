@@ -1,5 +1,7 @@
 guiTypes = {
 
+	#Banners VU
+
 	windowType = {
 		name = "topbar"
 		backGround=""
@@ -77,6 +79,7 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}
+
 		
 		guiButtonType = {
 			name = "player_shield"
@@ -126,7 +129,8 @@ guiTypes = {
 			clicksound = macro_build
 			shortcut = "Shift+G"
 		}
-
+		
+		
 		iconType = {
 			name = "government_reforms_progress"
 			position = { x = 100 y = 110 }
@@ -134,6 +138,7 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes
 		}
+		
 		guiButtonType = {
 			name = "government_reforms_button"
 			position = { x = 100 y = 110 }

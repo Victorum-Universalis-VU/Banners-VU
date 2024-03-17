@@ -1,5 +1,7 @@
 spriteTypes = {
 
+	#Banners VU
+
 	spriteType = {
 		name = "GFX_native_advancement_icon"
 		texturefile = "gfx/interface/native_advancement_icon.dds"
@@ -29,6 +31,12 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_natives_migrate_bg"
 		texturefile = "gfx//interface//country_natives_migrate_bg.dds"
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_natives_unified_federation"
+		texturefile = "gfx//interface//native_unified_federation.dds"
 		transparencecheck = yes
 	}
 	

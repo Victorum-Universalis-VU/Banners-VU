@@ -1,7 +1,7 @@
-version="1.31.5"
+version="1.36.2.*"
 tags={
 	"Graphics"
 }
-name="Banners - VU Compatible"
-supported_version="1.32.*"
+name="Banners - VU"
+supported_version="1.36.2"
 remote_file_id="2545654633"

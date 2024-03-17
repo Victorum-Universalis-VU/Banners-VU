@@ -1,5 +1,7 @@
 spriteTypes = {
 
+	#Banners VU
+
 	spriteType = {
 		name = "GFX_topbar_liberty_overlay"
 		texturefile = "gfx//interface//topbar_liberty_overlay.dds"
@@ -201,14 +203,22 @@ spriteTypes = {
 	}		
 	spriteType = {
 		name = "GFX_music_tile"
-		texturefile = "gfx//interface//music_player//music_tile.dds"
+		texturefile = "gfx/interface/music_player/music_tile.dds"
+	}
+	spriteType = {
+		name = "GFX_music_channel_tile"
+		texturefile = "gfx/interface/music_player/channel_tile.dds"
 	}	
 
 	
 	spriteType = {
 		name = "GFX_selected_track"
-		texturefile = "gfx//interface//music_player//selected_track.dds"
-	}	
+		texturefile = "gfx/interface/music_player/selected_track.dds"
+	}
+	spriteType = {
+		name = "GFX_selected_track_channel"
+		texturefile = "gfx/interface/music_player/selected_track_channel.dds"
+	}
 	
 	
 	spriteType = {
@@ -227,6 +237,7 @@ spriteTypes = {
 		name = "GFX_button_volume_plus"
 		texturefile = "gfx//interface//music_player//button_volume_plus.dds"
 	}	
+	
 	
 	spriteType = {
 		name = "GFX_button_music_player_play"
