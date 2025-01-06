@@ -1,5 +1,7 @@
 spriteTypes = {
 
+	#Banners VU
+
 	spriteType = {
 		name = "GFX_native_advancement_icon"
 		texturefile = "gfx/interface/native_advancement_icon.dds"
@@ -13,7 +15,7 @@ spriteTypes = {
 	maskedShieldType = {
 		name = "GFX_federation_leader_frame"
 		textureFile1 = "gfx/interface/federation_leader_frame.dds"
-		textureFile2 = "gfx/interface/shield_mask_old.tga"
+		textureFile2 = "gfx/interface/shield_mask.tga"
 		effectFile = "gfx/FX/maskedflag.lua"
 		textureFile3 = "gfx//interface//tutorial//tut_arrows_strip.dds"
 		noOfFrames = 8
@@ -29,6 +31,12 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_natives_migrate_bg"
 		texturefile = "gfx//interface//country_natives_migrate_bg.dds"
+		transparencecheck = yes
+	}
+	
+	spriteType = {
+		name = "GFX_natives_unified_federation"
+		texturefile = "gfx//interface//native_unified_federation.dds"
 		transparencecheck = yes
 	}
 	
@@ -51,7 +59,6 @@ spriteTypes = {
 		size = { x = 86 y = 28 }
 		effectFile = "gfx/FX/progress.lua"
 	}	
-}
 
     
 	### Natives Federation Advancements ###

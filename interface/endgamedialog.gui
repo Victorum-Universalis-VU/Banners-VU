@@ -1,5 +1,7 @@
 guiTypes = {
 
+	#Banners VU
+
 	########## historical_score_item #############
 	windowType = {
 		name = "historical_score_item"

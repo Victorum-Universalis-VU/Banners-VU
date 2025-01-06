@@ -1,7 +1,8 @@
 guiTypes = {
-	#### country right-click menu.
-	windowType = 
-	{
+
+	#Banners VU
+	
+	windowType = {
 		name = "ButtonMenuWindow"
 		backGround=""
 		position = { x= 0 y = 0 }	
@@ -14,8 +15,7 @@ guiTypes = {
 		Orientation = "UPPER_LEFT"
 	}
 	
-	guiButtonType =
-	{
+	guiButtonType = {
 		name ="ButtonMenuButton"
 		quadTextureSprite = "GFX_countryaction_gotolocation_big"
 		position = { x = 0 y = 0 }
@@ -71,7 +71,7 @@ guiTypes = {
 		iconType =
 		{
 			name ="waroverview_icon"
-			spriteType = "GFX_shield_medium_old"
+			spriteType = "GFX_shield_medium"
 			position = { x= -1 y = -14 }
 			hint_tag = "hint_waroverview"
 		}
@@ -94,8 +94,7 @@ guiTypes = {
 			format = center
 		}
 		
-		iconType =
-		{
+		iconType = {
 			name ="war_enthusiasm_icon"
 			spriteType = "GFX_war_enthusiasm_high"
 			position = { x = 40 y = 20 }
@@ -372,8 +371,7 @@ guiTypes = {
 			format = centre
 		}
 		
-		listboxType = 
-		{
+		listboxType = {
 			name ="games"
 			position = { x=120 y =140}
 			backGround=""
@@ -421,16 +419,14 @@ guiTypes = {
 			downsound = ""
 			fullscreen=no
 
-			iconType =
-				{
+			iconType = {
 				name ="messagesettings_bg"
 				spriteType = "GFX_messagesettings_bg"
 				position = { x= -170 y = 53 }
 				Orientation = "UPPER_LEFT"
 			}
 
-			listboxType = 
-			{
+			listboxType = {
 				name ="settings"
 				position = { x=24 y =175}
 				#backGround="SandboxFloaterBackground"
@@ -1288,8 +1284,7 @@ guiTypes = {
 			buttonFont = "vic_18"
 		}
 		
-		iconType =
-		{
+		iconType = {
 			name = "area_icon"
 			spriteType = "GFX_estate_territory_L"
 			position = { x= 10 y = 7 }
@@ -1395,8 +1390,7 @@ guiTypes = {
 
 
 
-	windowType = 
-	{
+	windowType = {
 		name = "menubar"
 		backGround=""
 		position = { x=0 y=0 }	
@@ -1412,8 +1406,7 @@ guiTypes = {
 		animation_type = "decelerated"
 		animation_time = 600	
 
-		windowType = 
-		{
+		windowType = {
 			name = "WarOverviewButtonWindow"
 			backGround=""
 			position = { x = -840 y = -65 }
@@ -1434,8 +1427,7 @@ guiTypes = {
 			}
 		}
 		
-		windowType = 
-		{
+		windowType = {
 			name = "messagelog_window"
 			backGround=""
 			position = { x=-1325 y=-100 }	
@@ -1451,16 +1443,14 @@ guiTypes = {
 			fullScreen = no
 			Orientation = "LOWER_RIGHT"
 
-			iconType =
-			{
+			iconType = {
 				name ="log_bg"
 				spriteType = "GFX_log_bg"
 				position = { x= 0 y = -10 }
 				Orientation = "UPPER_LEFT"
 			}
 
-			listboxType = 
-			{
+			listboxType = {
 				name ="messagelog"
 				position = { x = 120 y = 10 }
 				backGround=""
@@ -1648,8 +1638,7 @@ guiTypes = {
 			}
 		}
 		
-		listBoxType = 
-		{
+		listBoxType = {
 			name ="chat_list"
 			background = ""
 			position = { x=5 y=-655 }
@@ -1784,59 +1773,51 @@ guiTypes = {
 			animation_type = "decelerated"
 			animation_time = 300
 		
-			iconType =
-			{
+			iconType = {
 				name ="menubar_floating_bg_1"
 				spriteType = "GFX_menubar_floating_bg"
 				position = { x= -362 y = -36 }
 				Orientation = "LOWER_RIGHT"
 			}
-			iconType =
-			{
+			iconType = {
 				name ="menubar_floating_bg_2"
 				spriteType = "GFX_menubar_floating_bg"
 				position = { x= -407 y = -36 }
 				Orientation = "LOWER_RIGHT"
 			}
-			iconType =
-			{
+			iconType = {
 				name ="menubar_floating_bg_3"
 				spriteType = "GFX_menubar_floating_bg"
 				position = { x= -452 y = -36 }
 				Orientation = "LOWER_RIGHT"
 			}
 
-			iconType =
-			{
+			iconType = {
 				name ="menubar_floating_bg_4"
 				spriteType = "GFX_menubar_floating_bg"
 				position = { x= -497 y = -36 }
 				Orientation = "LOWER_RIGHT"
 			}
 			
-			iconType =
-			{
+			iconType = {
 				name ="menubar_floating_bg_5"
 				spriteType = "GFX_menubar_floating_bg"
 				position = { x= -542 y = -36 }
 				Orientation = "LOWER_RIGHT"
 			}		
-			iconType =
-			{
+			iconType = {
 				name ="menubar_floating_bg_6"
 				spriteType = "GFX_menubar_floating_bg"
 				position = { x= -597 y = -36 }
 				Orientation = "LOWER_RIGHT"
 			}
-			iconType =
-			{
+			iconType = {
 				name ="menubar_floating_bg_7"
 				spriteType = "GFX_menubar_floating_bg"
 				position = { x= -652 y = -36 }
 				Orientation = "LOWER_RIGHT"
 			}
-			iconType =
-			{
+			iconType = {
 				name ="menubar_floating_bg_8"
 				spriteType = "GFX_menubar_floating_bg"
 				position = { x= -707 y = -36 }
@@ -1975,8 +1956,7 @@ guiTypes = {
 			}
 			
 			
-			iconType =
-			{
+			iconType = {
 				name ="hre_strip_glow"
 				spriteType = "GFX_hre_strip_glow"
 				position = { x= -406 y = -58 }
@@ -2062,8 +2042,7 @@ guiTypes = {
 				hint_tag = "hint_celestial"
 			}
 			
-			iconType =
-			{
+			iconType = {
 				name ="revolution_flag"
 				spriteType = "GFX_rev_target"
 				position = { x = -446 y = -54 }
@@ -2077,15 +2056,13 @@ guiTypes = {
 			
 			
 		
-		iconType =
-		{
+		iconType = {
 			name ="mapmode_bg"
 			spriteType = "GFX_mapmode_bg"
 			position = { x= -99282 y = -109 }
 			Orientation = "LOWER_RIGHT"
 		}
-		iconType =
-		{
+		iconType = {
 			name ="mapmode_bg_2"
 			spriteType = "GFX_mapmode_bg"
 			position = { x= -99282 y = -126 }
@@ -2093,8 +2070,7 @@ guiTypes = {
 		}	
 
 	
-		iconType =
-		{
+		iconType = {
 			name ="observer_bg"
 			spriteType = "GFX_observer_bg"
 			position = { x= -316 y = -153}
@@ -2124,16 +2100,14 @@ guiTypes = {
 		}
 	}
 
-	iconType =
-	{
+	iconType = {
 		name ="minimap_bg"
 		spriteType = "GFX_minimap_bg"
 		position = { x= -319 y = -221 }
 		Orientation = "UPPER_LEFT"
 	}
 	
-	iconType =
-	{
+	iconType = {
 		name ="minimap_pic"
 		spriteType = "GFX_minimap"
 		position = { x= -276 y = -145 }
@@ -2335,8 +2309,7 @@ guiTypes = {
 		verticalBorder= ""
 		fullScreen = no
 	
-		checkboxType = 
-		{
+		checkboxType = {
 			name = "shield"
 			position = { x=0 y =0}
 			quadTextureSprite ="GFX_minishield_greydown"
@@ -2346,8 +2319,7 @@ guiTypes = {
 			buttonFont = "Main_14_black"
 		}
 		
-		iconType =
-		{
+		iconType = {
 			name ="minishield_strikeout"
 			spriteType = "GFX_minishield_strikeout"
 			position = { x= 0 y = 0 }
@@ -2387,8 +2359,7 @@ guiTypes = {
 			buttonFont = "Main_14_black"
 		}
 		
-		iconType =
-		{
+		iconType = {
 			name ="minishield_strikeout"
 			spriteType = "GFX_minishield_strikeout"
 			position = { x= 0 y = 0 }
@@ -2438,8 +2409,7 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"			
 		}
 		
-		iconType =
-		{
+		iconType = {
 			name ="msgTypeIcon"
 			spriteType = "GFX_msg_combat"
 			position = { x= 28 y = -21 }

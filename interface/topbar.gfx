@@ -1,5 +1,7 @@
 spriteTypes = {
 
+	#Banners VU
+
 	spriteType = {
 		name = "GFX_topbar_liberty_overlay"
 		texturefile = "gfx//interface//topbar_liberty_overlay.dds"
@@ -28,11 +30,6 @@ spriteTypes = {
 		alwaystransparent = yes
 	}
 
-	spriteType = {
-		name = "GFX_buildmenu_button"
-		texturefile = "gfx//interface//buildmenu_button.dds"
-	}
-	
 	spriteType = {
 		name = "GFX_topbar_portrait_value_bg"
 		texturefile = "gfx//interface//topbar_portrait_value_bg.tga"
@@ -206,14 +203,22 @@ spriteTypes = {
 	}		
 	spriteType = {
 		name = "GFX_music_tile"
-		texturefile = "gfx//interface//music_player//music_tile.dds"
+		texturefile = "gfx/interface/music_player/music_tile.dds"
+	}
+	spriteType = {
+		name = "GFX_music_channel_tile"
+		texturefile = "gfx/interface/music_player/channel_tile.dds"
 	}	
 
 	
 	spriteType = {
 		name = "GFX_selected_track"
-		texturefile = "gfx//interface//music_player//selected_track.dds"
-	}	
+		texturefile = "gfx/interface/music_player/selected_track.dds"
+	}
+	spriteType = {
+		name = "GFX_selected_track_channel"
+		texturefile = "gfx/interface/music_player/selected_track_channel.dds"
+	}
 	
 	
 	spriteType = {
@@ -231,11 +236,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_button_volume_plus"
 		texturefile = "gfx//interface//music_player//button_volume_plus.dds"
-	}	
-	
-	spriteType = {
-		name = "GFX_player_shield_bg"
-		texturefile = "gfx//interface//player_shield_bg.dds"
 	}	
 	
 	

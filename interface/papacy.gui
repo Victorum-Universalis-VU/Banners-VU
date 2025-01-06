@@ -1,23 +1,25 @@
 guiTypes = {
+
+	#Banners VU
+
 	windowType = {
 		name = "papacy_window"
 		backGround="papacy_bg"
 		position = { x=-274 y= -346 }
 		size = { x=548 y=691 }
-		moveable = 1
 		dontRender = ""
 		horizontalBorder= ""
 		verticalBorder= ""
 		fullScreen = no
 		Orientation = "CENTER"
+		moveable = 0
 
 		upsound = papacy
 		downsound = ""
 
 
 
-		guiButtonType =
-		{
+		guiButtonType =	{
 			name ="papacy_bg"
 			spriteType = "GFX_papacy_bg"
 			position = { x= 0 y = 0 }
@@ -160,7 +162,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "invest_button"
-			position = { x=103 y=127 }
+			position = { x=106 y=127 }
 			quadTextureSprite ="GFX_invest_papacy_button"
 			tooltip = ""
 			tooltipText =""
@@ -347,10 +349,9 @@ guiTypes = {
 			position = { x= 485 y = 180 }
 		}
 
-		guiButtonType =
-		{
+		guiButtonType = {
 			name ="controller_shield"
-			quadTextureSprite = "GFX_shield_thin_old"
+			quadTextureSprite = "GFX_shield_thin"
 			position = { x= 226 y = 106 }
 			tooltip = ""
 			tooltipText =""
@@ -359,17 +360,16 @@ guiTypes = {
 			hint_tag = "hint_papalcontroller"
 		}
 
-		iconType =
-		{
+		iconType = {
 			name ="diplomatic_actions_icon"
-			spriteType = "GFX_more_dip_actions_icon"
-			position = { x= 195 y = 180 }
+			spriteType = "GFX_more_dip_actions_icon_papacy"
+			position = { x= 252 y = 180 }
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_papalactions"
+			scale = 0.8
 		}
 
-		guiButtonType =
-		{
+		guiButtonType =	{
 			name ="crusade_target_shield"
 			quadTextureSprite = "GFX_crusade_target_shield"
 			position = { x= 270 y = 136 }
@@ -408,16 +408,14 @@ guiTypes = {
 			verticalBorder= ""
 			fullScreen = no
 
-			iconType =
-			{
+			iconType = {
 				name ="background"
 				spriteType = "GFX_golden_bull_bg"
 				position = { x= 0 y = 0 }
 				Orientation = "UPPER_LEFT"
 			}
 
-			instantTextBoxType = 
-			{
+			instantTextBoxType = {
 				name = "pcikbull_label"
 				position = { x = 37 y = 28 }
 				textureFile = ""
@@ -429,8 +427,7 @@ guiTypes = {
 				format = centre
 			}
 
-			instantTextBoxType = 
-			{
+			instantTextBoxType = {
 				name = "bullcost_label"
 				position = { x = 35 y = 76 }
 				textureFile = ""
@@ -445,7 +442,7 @@ guiTypes = {
         	iconType = {
             	name = "tithe_state"
             	spriteType = "GFX_tithe_state"
-            	position = { x=70 y=70 }
+            	position = { x=67 y=69 }
             	Orientation = "UPPER_LEFT"
             	scale = 0.75
         	}
@@ -463,7 +460,7 @@ guiTypes = {
 				position = { x = 30 y = 106 }
 				backGround=""
 				size = { x=227  y = 270}
-				}
+			}
 		}
 		
 		########################################		
